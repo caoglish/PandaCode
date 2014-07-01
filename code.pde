@@ -2,7 +2,7 @@ void setup() {
 	size(400, 400);
 	background(255, 255, 255);
 	size=100;
-	x=180;
+	
 
 }
 
@@ -42,13 +42,14 @@ void draw() {
 	var bodyHeight= size*1.2;
 	var footSize=earSize/1.5;
 	var y=100
+	var x=180;
 
 	
-	if(x==0){
+	// if(x==0){
 		
-	}else{
-		x=x-2
-	}
+	// }else{
+	// 	x=x-2
+	// }
 
 
 
@@ -65,9 +66,9 @@ void draw() {
 	stroke(0,0,0);
 	fill(0,0,0);
 	roundRect(x-size/1.72,y+size/5,bodyWidth*0.3,bodyHeight*0.6);//hand
-	if(x!=0){
+	//if(x!=0){
 		roundRect(x+size/3.333,y+size/5,bodyWidth*0.3,bodyHeight*0.6);//right hand	
-	}
+	//}
 	
 
 
@@ -134,8 +135,8 @@ void draw() {
 	stroke(0,0,0);
 	fill(0,0,0);
 
-	if(x==0){
-		roundRect(x+size/30,y+size/3,bodyWidth*0.6,bodyHeight*0.12);//right hand
-	}
+	// if(x==0){
+	// 	roundRect(x+size/30,y+size/3,bodyWidth*0.6,bodyHeight*0.12);//right hand
+	// }
 
 }
